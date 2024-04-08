@@ -76,7 +76,7 @@ jobs:
         echo "" >> README.md
         echo "" >> README.md
         echo \#\# PORT ENGINES >> README.md
-        echo The assets of these ports are licensed and must be added manually. Only open source engines and configuration are included. >> README.md
+        echo "The assets of these ports are licensed and must be added manually. Only open source engines and configurations are included, you must add the assets from games that you officially own.\nThe list of required files is described in \"_required_files.txt\". For more information read [Onion Ports documentation](https://onionui.github.io/docs/ports).">> README.md
         echo "|        |        |        |        |        |" >> README.md
         echo "| :----: | :----: | :----: | :----: | :----: |" >> README.md
         count=0
