@@ -3,20 +3,17 @@
 |-- Game.so
 |-- RSDKv5U
 |-- Settings.ini
-|-- cpuclock
 |-- launch.sh
 |-- lib
 |   |-- libEGL.so
-|   |-- libGLESv2.so
 |   |-- libSDL2-2.0.so.0
 |   |-- libSDL2-2.0.so.02
 |   |-- libSDL2_image-2.0.so.0
 |   |-- libSDL2_ttf-2.0.so.0
 |   |-- libjson-c.so.5
 |   |-- libneon.so
-|   |-- libogg.so.0
-|   |-- libpng16.so.16
 |   |-- libtheora.so.0
 |   |-- libtheoradec.so.1
 |   `-- libz.so.1
-`-- log.txt
+
+

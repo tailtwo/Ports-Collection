@@ -4,7 +4,7 @@
 # main configuration :
 GameName="Sonic Mania"
 GameDir="Sonic Mania"
-GameExecutable="launch.sh"
+GameExecutable="RSDKv5U"
 GameDataFile="Data.rsdk"
 
 # additional configuration
@@ -13,6 +13,11 @@ PerformanceMode=1
 
 # specific to this port :
 Arguments=""
+export SDL_VIDEODRIVER=mmiyoo
+export EGL_VIDEODRIVER=mmiyoo
+export SDL_AUDIODRIVER=dsp
+cpuclock 1600
 
 # running command line :
 /mnt/SDCARD/Emu/PORTS/launch_standalone.sh "$GameName" "$GameDir" "$GameExecutable" "$Arguments" "$GameDataFile" "$KillAudioserver" "$PerformanceMode"
+
