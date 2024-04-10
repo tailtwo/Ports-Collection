@@ -19,7 +19,7 @@ fi
 CUST_CPUCLOCK=1
 if [ "$CUST_CPUCLOCK" = "1" ]; then
     echo "set customized cpuspeed"
-    ./cpuclock 1600
+    $sysdir/bin/cpuclock 1600
 fi
 
 cd "$mydir"
