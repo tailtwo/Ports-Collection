@@ -1,0 +1,13 @@
+/mnt/SDCARD/Roms/PORTS/Games/zelda3
+├── PLACE zelda3_assets.dat HERE.txt
+├── zelda3_assets.dat
+├── lib
+│   ├── libEGL.so
+│   ├── libSDL2-2.0.so.0
+│   ├── libSDL2_image-2.0.so.0
+│   ├── libSDL2_ttf-2.0.so.0
+│   ├── libjson-c.so.5
+│   ├── libpng16.so.16
+│   └── libz.so.1
+├── zelda3
+└── zelda3.ini

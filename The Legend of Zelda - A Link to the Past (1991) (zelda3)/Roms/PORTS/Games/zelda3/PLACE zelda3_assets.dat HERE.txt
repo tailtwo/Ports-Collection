@@ -1,0 +1,3 @@
+Place the zelda3_assets.dat file in this folder. Instructions on how to extract it from a legit zelda3 rom :
+https://github.com/snesrev/zelda3?tab=readme-ov-file#more-compilation-help
+https://github.com/snesrev/zelda3/wiki/2.-Cloning-and-Setup
