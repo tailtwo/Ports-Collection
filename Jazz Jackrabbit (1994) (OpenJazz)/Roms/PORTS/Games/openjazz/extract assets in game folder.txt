@@ -1,0 +1,1 @@
+Extract assets in the "game" folder. Assets are all the files from an official Jazz Jackrabbit installation (BLOCK.000, BLOCK.001, BLOCK.002, BONUS.000...).

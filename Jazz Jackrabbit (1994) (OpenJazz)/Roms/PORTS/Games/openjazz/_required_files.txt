@@ -1,0 +1,14 @@
+/mnt/SDCARD/Roms/PORTS/Games/openjazz
+├── OpenJazz
+├── extract assets in game folder.txt
+├── game
+│   ├── <game assets>
+├── lib
+│   ├── libEGL.so
+│   ├── libSDL2-2.0.so.0
+│   ├── libSDL2_image-2.0.so.0
+│   ├── libSDL2_ttf-2.0.so.0
+│   ├── libjson-c.so.5
+│   ├── libpng16.so.16
+│   └── libz.so.1
+└── script.sh
