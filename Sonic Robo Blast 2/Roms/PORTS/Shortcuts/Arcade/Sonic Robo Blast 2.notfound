@@ -1,0 +1,36 @@
+#!/bin/sh
+# Standalone Ports Script Template
+
+# main configuration :
+GameName="Sonic Robo Blast 2"
+GameDir="Sonic Robo Blast 2"
+GameExecutable="script.sh"
+GameDataFile="srb2.pk3"
+
+# additional configuration
+KillAudioserver=1
+PerformanceMode=1
+
+# specific to this port :
+Arguments=""
+export SDL_VIDEODRIVER=mmiyoo
+export EGL_VIDEODRIVER=mmiyoo
+export SDL_AUDIODRIVER=mmiyoo
+
+MODEL_MM=283
+MODEL_MMP=354
+CUST_CPUCLOCK=1
+if [ "$CUST_CPUCLOCK" == "1" ]; then
+    echo "setting customized cpuspeed"
+    if grep -q $MODEL_MM "/tmp/deviceModel"; then
+        cpuclock 1600
+    elif grep -q $MODEL_MMP "/tmp/deviceModel"; then
+        cpuclock 1800
+    else
+	echo "device model not recognized, do nothing"
+    fi
+fi
+
+# running command line :
+/mnt/SDCARD/Emu/PORTS/launch_standalone.sh "$GameName" "$GameDir" "$GameExecutable" "$Arguments" "$GameDataFile" "$KillAudioserver" "$PerformanceMode"
+

@@ -1,0 +1,1 @@
+Check the _required_files.txt file for the list of files required. Files can be found in any installation of SRB2, check https://www.srb2.org/download/ to get it.

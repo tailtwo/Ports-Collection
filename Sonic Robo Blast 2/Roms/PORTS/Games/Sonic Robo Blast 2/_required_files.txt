@@ -1,0 +1,32 @@
+/mnt/SDCARD/Roms/PORTS/Games/Sonic Robo Blast 2
+|-- LICENSE
+|-- _required_files.txt
+|-- lib
+|   |-- libEGL.so
+|   |-- libSDL2-2.0.so.0
+|   |-- libSDL2_image-2.0.so.0
+|   |-- libSDL2_mixer-2.0.so.0
+|   |-- libSDL2_ttf-2.0.so.0
+|   |-- libcurl.so.4
+|   |-- libgme.so.0
+|   |-- libjson-c.so.5
+|   |-- libm.so.6
+|   |-- libmathlib.so
+|   |-- libmpg123.so.0
+|   |-- libneonarmmiyoo.so
+|   |-- libnetworking.so
+|   |-- libogg.so.0
+|   |-- libopenal.so.1
+|   |-- libopenmpt.so.0
+|   |-- libpng16.so.16
+|   |-- libstringlib.so
+|   |-- libvorbis.so.0
+|   |-- libvorbisfile.so.3
+│   `-- libz.so.1
+|-- music.dta
+|-- patch.pk3
+|-- player.dta
+|-- script.sh
+|-- srb2
+|-- srb2.pk3
+`-- zones.pk3
